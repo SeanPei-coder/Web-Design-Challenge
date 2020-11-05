@@ -18,6 +18,9 @@ a.navbar-brand:hover{
     text-decoration: none;
     display: inline-block;
 }
+a.nav-link:hover{
+    background-color: lightgray;
+}
 .navbar-light .navbar-brand {
     color: white;
 }
@@ -95,6 +98,7 @@ body{
         width:110px;
         height:110px;
     }
+    
 }
 #viz_summary img{
     display: block;
@@ -149,6 +153,13 @@ tr:nth-child(even) {background-color: #f2f2f2;}
         padding-left: 0px;
         padding-right: 0px;
     }
+    .navbar-light .navbar-brand {
+        color: white;
+    }
+    .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+        color: white;
+    }
+    
    
   
 }
@@ -163,6 +174,10 @@ tr:nth-child(even) {background-color: #f2f2f2;}
     width:300px;
     height:180px;
 
+
+}
+#comparisons img:hover{
+    opacity: 0.5;
 
 }
 
