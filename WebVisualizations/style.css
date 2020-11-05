@@ -175,7 +175,7 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 @media screen and (max-width:768px){
     .top_navbar{
         position: absolute;
-        visibility: hidden;
+        display: none;
     }
     .navbar-light{
         background-color: cadetblue;
@@ -185,12 +185,9 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 @media screen and (min-width:768px){
     .bottom_navbar{
         position: absolute;
-        visibility: hidden;
+        display: none;
     }
-    .top_navbar ul{
-        position: static;
-        margin-left: 800px;
-    }
+
 
 
 }
@@ -216,7 +213,10 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 }
 
 
-
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
 
 
 
